@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
           className="text-muted-foreground/50"
         >
           <Link
-            href="https://www.linkedin.com/in/guptayash03/"
+            href="/"
             target="_blank"
           >
             <SiLinkedin size={18} />
