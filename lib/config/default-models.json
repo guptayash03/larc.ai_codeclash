@@ -1,0 +1,181 @@
+{
+  "models": [
+    {
+      "id": "o3-mini",
+      "name": "ChatGPT-o3 mini",
+      "provider": "OpenAI",
+      "providerId": "azure",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "gpt-4.1",
+      "name": "ChatGPT 4.1",
+      "provider": "OpenAI",
+      "providerId": "azure",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "gpt-4.1-mini",
+      "name": "ChatGPT 4.1 mini",
+      "provider": "OpenAI",
+      "providerId": "azure",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "us.anthropic.claude-sonnet-4-20250514-v1:0",
+      "name": "Claude 4 Sonnet",
+      "provider": "Anthropic",
+      "providerId": "amazonClaude",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "us.anthropic.claude-opus-4-20250514-v1:0",
+      "name": "Claude 4 Opus",
+      "provider": "Anthropic",
+      "providerId": "amazonClaude",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "anthropic.claude-3-5-haiku-20241022-v1:0",
+      "name": "Claude 3.5 Haiku",
+      "provider": "Anthropic",
+      "providerId": "amazonClaude",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "gemini-2.5-pro-preview-05-06",
+      "name": "Gemini 2.5 Pro",
+      "provider": "Google AI",
+      "providerId": "google",
+      "enabled": true,
+      "toolCallType": "manual"
+    },
+    {
+      "id": "gemini-2.5-flash-preview-04-17",
+      "name": "Gemini 2.5 Flash",
+      "provider": "Google AI",
+      "providerId": "google",
+      "enabled": true,
+      "toolCallType": "manual",
+      "toolCallModel": "gemini-2.5-flash"
+    },
+    {
+      "id": "grok-3",
+      "name": "Grok 3",
+      "provider": "xAI",
+      "providerId": "azureGrok",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "grok-3-mini",
+      "name": "Grok 3 mini",
+      "provider": "xAI",
+      "providerId": "azureGrok",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "us.deepseek.r1-v1:0",
+      "name": "DeepSeek R1",
+      "provider": "DeepSeek",
+      "providerId": "amazonDeepSeek",
+      "enabled": true,
+      "toolCallType": "manual"
+    },
+    {
+      "id": "DeepSeek-V3-0324",
+      "name": "DeepSeek V3",
+      "provider": "DeepSeek",
+      "providerId": "azureDeepSeek",
+      "enabled": true,
+      "toolCallType": "manual"
+    },
+    {
+      "id": "us.meta.llama4-maverick-17b-instruct-v1:0",
+      "name": "Llama 4 Maverick",
+      "provider": "Meta",
+      "providerId": "amazonMeta",
+      "enabled": true,
+      "toolCallType": "manual"
+    },
+    {
+      "id": "us.meta.llama4-scout-17b-instruct-v1:0",
+      "name": "Llama 4 Scout",
+      "provider": "Meta",
+      "providerId": "amazonMeta",
+      "enabled": true,
+      "toolCallType": "manual"
+    },
+    {
+      "id": "us.meta.llama3-3-70b-instruct-v1:0",
+      "name": "Llama 3.3",
+      "provider": "Meta",
+      "providerId": "amazonMeta",
+      "enabled": true,
+      "toolCallType": "manual"
+    },
+    {
+      "id": "sonar-pro",
+      "name": "Perplexity Sonar Pro",
+      "provider": "Perplexity",
+      "providerId": "perplexity",
+      "enabled": true,
+      "toolCallType": "manual"
+    },
+    {
+      "id": "mistral.mistral-large-2407-v1:0",
+      "name": "Mistral Large 2",
+      "provider": "Mistral",
+      "providerId": "amazonMistral",
+      "enabled": true,
+      "toolCallType": "manual"
+    },
+        {
+      "id": "us.amazon.nova-pro-v1:0",
+      "name": "Nova Pro",
+      "provider": "Amazon",
+      "providerId": "amazonNova",
+      "enabled": true,
+      "toolCallType": "manual"
+    },
+    {
+      "id": "us.amazon.nova-premier-v1:0",
+      "name": "Nova Premier",
+      "provider": "Amazon",
+      "providerId": "amazonNova",
+      "enabled": true,
+      "toolCallType": "manual"
+    },
+    {
+      "id": "cohere.command-r-plus-v1:0",
+      "name": "Command R+",
+      "provider": "Cohere",
+      "providerId": "amazonCohere",
+      "enabled": true,
+      "toolCallType": "manual"
+    },
+    {
+      "id": "cohere.command-r-v1:0",
+      "name": "Command R",
+      "provider": "Cohere",
+      "providerId": "amazonCohere",
+      "enabled": true,
+      "toolCallType": "manual"
+    },
+    {
+      "id": "openrouter/auto",
+      "name": "Auto Routing",
+      "provider": "openrouter",
+      "providerId": "openrouter",
+      "enabled": false,
+      "toolCallType": "native"
+    }
+  ]
+}

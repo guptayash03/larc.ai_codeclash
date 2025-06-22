@@ -1,0 +1,201 @@
+{
+    "models": [
+    {
+      "id": "o3-mini",
+      "name": "ChatGPT-o3 mini",
+      "provider": "OpenAI",
+      "providerId": "openai",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "gpt-4o",
+      "name": "ChatGPT-4o",
+      "provider": "OpenAI",
+      "providerId": "openai",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "gpt-4o-mini",
+      "name": "ChatGPT-4o mini",
+      "provider": "OpenAI",
+      "providerId": "openai",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "gpt-4.1-nano",
+      "name": "ChatGPT 4.1 nano",
+      "provider": "OpenAI",
+      "providerId": "azure",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+        "id": "claude-3-7-sonnet@20250219",
+        "name": "Claude 3.7 Sonnet",
+        "provider": "Anthropic Vertex",
+        "providerId": "vertexAnthropic",
+        "enabled": false,
+        "toolCallType": "manual"
+    },
+    {
+        "id": "claude-3-5-sonnet-v2@20241022",
+        "name": "Claude 3.5 Sonnet",
+        "provider": "Anthropic Vertex",
+        "providerId": "vertexAnthropic",
+        "enabled": false,
+        "toolCallType": "manual"
+    },
+    {
+        "id": "claude-3-5-haiku@20241022",
+        "name": "Claude 3.5 Haiku",
+        "provider": "Anthropic Vertex",
+        "providerId": "vertexAnthropic",
+        "enabled": false,
+        "toolCallType": "manual"
+    },
+        {
+      "id": "claude-3-7-sonnet-20250219",
+      "name": "Claude 3.7 Sonnet",
+      "provider": "Anthropic",
+      "providerId": "anthropic",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "claude-3-5-sonnet-latest",
+      "name": "Claude 3.5 Sonnet",
+      "provider": "Anthropic",
+      "providerId": "anthropic",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "claude-3-5-haiku-20241022",
+      "name": "Claude 3.5 Haiku",
+      "provider": "Anthropic",
+      "providerId": "anthropic",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+      "name": "Claude 3.7 Sonnet",
+      "provider": "Anthropic",
+      "providerId": "amazonClaude",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "anthropic.claude-3-5-sonnet-20241022-v2:0",
+      "name": "Claude 3.5 Sonnet V2",
+      "provider": "Anthropic",
+      "providerId": "amazonClaude",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+        "id": "accounts/fireworks/models/deepseek-r1",
+        "name": "DeepSeek R1",
+        "provider": "Fireworks",
+        "providerId": "fireworks",
+        "enabled": false,
+        "toolCallType": "manual",
+        "toolCallModel": "accounts/fireworks/models/llama-v3p1-8b-instruct"
+    },
+    {
+        "id": "deepseek-r1-distill-llama-70b",
+        "name": "DeepSeek R1 Distill Llama 70B",
+        "provider": "Groq",
+        "providerId": "groq",
+        "enabled": false,
+        "toolCallType": "manual",
+        "toolCallModel": "llama-3.1-8b-instant"
+    },
+    {
+        "id": "deepseek-r1",
+        "name": "DeepSeek R1",
+        "provider": "Ollama",
+        "providerId": "ollama",
+        "enabled": false,
+        "toolCallType": "manual",
+        "toolCallModel": "phi4"
+    },
+    {
+        "id": "<OLLAMA_MODEL_ID>",
+        "name": "<OLLAMA_MODEL_NAME>",
+        "provider": "Ollama",
+        "providerId": "ollama",
+        "enabled": false,
+        "toolCallType": "manual",
+        "toolCallModel": "<OLLAMA_MODEL_ID>"
+    },
+    {
+        "id": "deepseek-reasoner",
+        "name": "DeepSeek R1",
+        "provider": "DeepSeek",
+        "providerId": "deepseek",
+        "enabled": false,
+        "toolCallType": "manual",
+        "toolCallModel": "deepseek-chat"
+      },
+      {
+        "id": "deepseek-chat",
+        "name": "DeepSeek V3",
+        "provider": "DeepSeek",
+        "providerId": "deepseek",
+        "enabled": false,
+        "toolCallType": "manual"
+      },
+      {
+      "id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+      "name": "Meta Llama 3.1",
+      "provider": "Meta",
+      "providerId": "togetherai",
+      "enabled": true,
+      "toolCallType": "native"
+      },
+      {
+      "id": "meta.llama3-1-405b-instruct-v1:0",
+      "name": "Llama 3.1",
+      "provider": "Meta",
+      "providerId": "amazonMeta",
+      "enabled": true,
+      "toolCallType": "manual"
+      },
+      {
+      "id": "mistral-large-latest",
+      "name": "Mistral Large",
+      "provider": "Mistral",
+      "providerId": "mistral",
+      "enabled": true,
+      "toolCallType": "native"
+      },
+      {
+        "id": "amazon.titan-text-express-v1",
+        "name": "Titan G1",
+        "provider": "Amazon",
+        "providerId": "amazonNova",
+        "enabled": true,
+        "toolCallType": "manual"
+      },
+      {
+        "id": "grok-2-1212",
+        "name": "Grok 2",
+        "provider": "xAI",
+        "providerId": "xai",
+        "enabled": false,
+        "toolCallType": "native"
+      },
+      {
+        "id": "grok-2-vision-1212",
+        "name": "Grok 2 Vision",
+        "provider": "xAI",
+        "providerId": "xai",
+        "enabled": false,
+        "toolCallType": "native"
+      }
+    ]
+}
