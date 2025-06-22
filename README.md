@@ -1,7 +1,5 @@
-# Unify.ai
+# Larc.ai
 
 All-In-One App Store of AI Models & AI Agents
 
-![capture](/public/screenshot-2025-01-31.png)
 
-![capture](/public/opengraph-image.png)
