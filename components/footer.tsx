@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
           size={'icon'}
           className="text-muted-foreground/50"
         >
-          <Link href="https://www.instagram.com/larc.ai__" target="_blank">
+          <Link href="/" target="_blank">
             <SiInstagram size={18} />
           </Link>
         </Button>
@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
           size={'icon'}
           className="text-muted-foreground/50"
         >
-          <Link href="https://www.youtube.com/@YashGupta.Official" target="_blank">
+          <Link href="/" target="_blank">
             <SiYoutube size={20} />
           </Link>
         </Button>
